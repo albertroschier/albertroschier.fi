@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Albert Roschier</title>
+        <link rel="icon" type="image/x-icon" href="/onewebmedia/logo.png">
+        <meta charset="UTF-8">
+        <style>
+            ::selection {color: white; background: black;}
+            body {text-align: center; background-color: white; font-family: helvetica;}
+            @media only screen and (orientation: landscape) {
+                h1 {font-size: 1.5vw; margin-top: 5vw;}
+                p {font-size: 1.5vw; margin: 3vw;}
+                a {font-size: 1.5vw; color: blue;}
+                #poster {width: 30%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #single {width: 20%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #lp {width: 60.5%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #patch {width: 20%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #small {font-size: 0.75vw; margin: 3vw;}
+                #sig {width: 10%; height: auto; margin-top: 2vw; margin-bottom: 5vw;}
+                .slides {display:none;}
+            }
+            @media only screen and (orientation: portrait) {
+                h1 {font-size: 3vw; margin-top: 7vw;}
+                p {font-size: 3vw; margin: 3vw;}
+                a {font-size: 3vw; color: blue;}
+                #poster {width: 80%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #single {width: 25%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #lp {width: 76.5%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #patch {width: 50%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
+                #small {font-size: 2vw; margin: 3vw;}
+                #sig {width: 20%; height: auto; margin-top: 2vw; margin-bottom: 7vw;}
+                .slides {display:none;}
+            }
+        </style>
+	</head>
+    <body>
+        <h1>Albert Roschier</h1>
+        <p>Jack of all trades <br> Base of operations at 61°29′53″N, 023°45′39″E <br> This is my humble portfolio</p>
+        <br>
+        <p>The Dry Eye<del>®</del> ↓</p>
+        <br>
+        <div>
+            <img src="/onewebmedia/collage.png" id="poster" class="slides">
+            <img src="/onewebmedia/sanitizer.png" id="poster" class="slides">
+            <img src="/onewebmedia/summer.png" id="poster" class="slides">
+            <img src="/onewebmedia/screw.png" id="poster" class="slides">
+            <img src="/onewebmedia/snip.png" id="poster" class="slides">
+            <img src="/onewebmedia/blue_oni.png" id="poster" class="slides">
+            <img src="/onewebmedia/red_oni.png" id="poster" class="slides">
+            <img src="/onewebmedia/fed.png" id="poster" class="slides">
+            <img src="/onewebmedia/recycle.png" id="poster" class="slides">
+            <img src="/onewebmedia/arch.png" id="poster" class="slides">
+            <img src="/onewebmedia/meat.png" id="poster" class="slides">
+            <img src="/onewebmedia/laundry.png" id="poster" class="slides">
+            <img src="/onewebmedia/hazard.png" id="poster" class="slides">
+            <img src="/onewebmedia/nuclear.png" id="poster" class="slides">
+            <img src="/onewebmedia/corrupt.png" id="poster" class="slides">
+            <img src="/onewebmedia/thanks.png" id="poster" class="slides">
+            <img src="/onewebmedia/mkultra.png" id="poster" class="slides">
+            <img src="/onewebmedia/poke.png" id="poster" class="slides">
+            <img src="/onewebmedia/coathanger.png" id="poster" class="slides">
+            <img src="/onewebmedia/baby.png" id="poster" class="slides">
+            <img src="/onewebmedia/psilocybin.png" id="poster" class="slides">
+            <img src="/onewebmedia/bad.png" id="poster" class="slides">
+            <img src="/onewebmedia/exit.png" id="poster" class="slides">
+            <img src="/onewebmedia/disposal.png" id="poster" class="slides">
+            <img src="/onewebmedia/declaration.png" id="poster" class="slides">
+            <img src="/onewebmedia/disconnected.png" id="poster" class="slides">
+            <img src="/onewebmedia/houndstooth.png" id="poster" class="slides">
+            <img src="/onewebmedia/psyops.png" id="poster" class="slides">
+            <img src="/onewebmedia/digital.png" id="poster" class="slides">
+            <img src="/onewebmedia/atom.png" id="poster" class="slides">
+            <img src="/onewebmedia/agman.png" id="poster" class="slides">
+            <img src="/onewebmedia/lifelog.png" id="poster" class="slides">
+            <img src="/onewebmedia/qr.png" id="poster" class="slides">
+        </div>
+        <br><br>
+        <p>Bad Vision ↓</p>
+        <br>
+        <div>
+            <img src="/onewebmedia/s1.png" id="single">
+            <img src="/onewebmedia/s2.png" id="single">
+            <img src="/onewebmedia/s3.png" id="single"><br>
+            <img src="/onewebmedia/digipak.png" id="lp"><br>
+            <img src="/onewebmedia/cd.png" id="single">
+            <img src="/onewebmedia/tamperealt.png" id="single">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "initial";
+            setTimeout(carousel, 400);
+            }
+        </script>
+        <br><br>
+        <p>Ministerit ry ↓</p>
+        <br>
+        <div>
+            <img src="/onewebmedia/ministerit_ry.png" id="poster">
+            <br>
+            <img src="/onewebmedia/ministerisitsit.png" id="patch">
+        </div>
+        <br>
+        <p>...</p>
+        <br>
+        <p>hmu ↓</p>
+        <a href="mailto:yo@albertroschier.fi">yo@albertroschier.fi</a>
+        <br>
+        <br>
+        <p>also check out ↓</p>
+        <a href="https://instagram.com/albertroschier" target="_blank">instagram.com/albertroschier</a>
+        <br>
+        <a href="https://discogs.com/user/albertroschier" target="_blank">discogs.com/user/albertroschier</a>
+        <br>
+        <a href="https://open.spotify.com/user/albertroschier" target="_blank">open.spotify.com/user/albertroschier</a>
+        <br>
+        <br>
+        <p>© Albert Roschier 20XX</p>
+        <p id="small">Not powered by any soulless website builder or template,<br>sometimes just a single handmade .html file is enough</p>
+        <br>
+        <img src="/onewebmedia/signature.png" id="sig">
+    </body>
+</html>
