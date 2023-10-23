@@ -5,45 +5,56 @@
         <meta charset="UTF-8">
         <meta name="googlebot-image" content="noindex">
         <style>
-            body {text-align: center; background-color: white; font-family: helvetica;}
-            ::selection {color: white; background: black;}
+            ::selection {color: gold; background: transparent;}
             @media only screen and (orientation: landscape) {
-                h1 {font-size: 1.25vw; margin: 3%;}
-                h2 {font-size: 1.25vw; margin: 2%;}
-                p {font-size: 1.25vw; margin: 2%;}
-                a {font-size: 1.25vw; color: blue;}
-                #poster {width: 26%; height: auto; margin-top: 1%; margin-bottom: 1%;}
-                #single {width: 12.85%; margin-top: 1%; margin-bottom: 1%;}
-                #lp {width: 39%; height: auto; margin-top: 1%; margin-bottom: 1%;}
-                #patch {width: 15%; height: auto; margin-top: 1%; margin-bottom: 1%;}
-                #small {font-size: 0.75vw; margin: 2%;}
-                #logo {width: 5%; height: auto; margin-top: 1%; margin-bottom: 4%; margin-right: 1%;}
-                #sig {width: 10%; height: auto; margin-top: 1%; margin-bottom: 4%;}
+                body {margin: 3vw; background-color: #FFFFFE; font-family: helvetica;}
+                header {text-align: left;}
+                footer {text-align: right;}
+                h1 {font-size: 2vw;}
+                h2 {font-size: 2vw;}
+                p {font-size: 2vw;}
+                a {font-size: 2vw; color: blue; text-decoration: none;}
+                a:hover, a:active {text-decoration: underline;}
+                #poster {width: 30%; margin:; 1%; box-shadow: 2px 2px 2px ghostwhite;}
+                #wide {width: 30%; margin: 1%;}
+                #singles {width: 40%; margin: 1%;}
+                #cd {width: 40%; margin: 1%;}
+                #lp {width: 40%; margin: 1%;}
+                #gig {width: 30%; margin: 1%;}
+                .right {text-align: right;}
+                .center {text-align: center;}
+                .left {text-align: left;}
                 .slides {display:none;}
             }
             @media only screen and (orientation: portrait) {
-                h1 {font-size: 3vw; margin: 7vw;}
-                h2 {font-size: 3vw; margin: 3vw;}
-                p {font-size: 1.5vw; margin: 3vw;}
-                a {font-size: 1.5vw; color: blue;}
-                #poster {width: 80%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
-                #single {width: 26%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
-                #lp {width: 80%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
-                #patch {width: 50%; height: auto; margin-top: 1vw; margin-bottom: 1vw;}
-                #small {font-size: 1vw; margin: 6vw}
-                #logo {width: 15%; height: auto; margin-top: 2vw; margin-bottom: 7vw; margin-right: 2vw;}
-                #sig {width: 25%; height: auto; margin-top: 2vw; margin-bottom: 7vw;}
+                body {text-align: center; margin: 6vw; background-color: #FFFFFE; font-family: helvetica;}
+                header {text-align: left;}
+                footer {text-align: right;}
+                h1 {font-size: 4vw;}
+                h2 {font-size: 4vw;}
+                p {font-size: 4vw;}
+                a {font-size: 4vw; color: blue; text-decoration: none;}
+                #poster {width: 85%; margin: 2vw; box-shadow: 5px 5px 5px ghostwhite;}
+                #wide {width: 85%; margin: 2vw;}
+                #singles {width: 85%; margin: 2vw;}
+                #cd {width: 85%; margin: 2vw;}
+                #lp {width: 85%; margin: 2vw;}
+                #gig {width: 85%; margin: 2vw;}
+                .right {text-align: right;}
+                .center {text-align: center;}
+                .left {text-align: left;}
                 .slides {display:none;}
             }
         </style>
 	</head>
     <body>
-        <div id="sequence"><h1>A®</h1></div>
-        <p>Jack of all trades <br>Base of operations at 61°29′53″N, 023°45′39″E <br> This is my humble portfolio</p>
-        <br>
-        <h2>The Dry Eye<del>®</del> ↓</h2>
-        <br>
-        <div>
+        <header>
+            <h1>Albert Roschier</h1>
+            <p>Jack of all trades<br>Base of operations at 61°29′53″N, 023°45′39″E<br>Here's some of my works</p>
+        </header>
+        <br><h2 class="left">The Dry Eye<del>®</del><br>↓</h2><br>
+        <div id="slideshow" class="center">
+            <img src="/onewebmedia/thedryeye.png" id="poster" class="slides">
             <img src="/onewebmedia/molotov.png" id="poster" class="slides">
             <img src="/onewebmedia/summer.png" id="poster" class="slides">
             <img src="/onewebmedia/screw.png" id="poster" class="slides">
@@ -70,6 +81,7 @@
             <img src="/onewebmedia/smoke.png" id="poster" class="slides">
             <img src="/onewebmedia/bad.png" id="poster" class="slides">
             <img src="/onewebmedia/exit.png" id="poster" class="slides">
+            <img src="/onewebmedia/launch.png" id="poster" class="slides">
             <img src="/onewebmedia/disposal.png" id="poster" class="slides">
             <img src="/onewebmedia/smile.png" id="poster" class="slides">
             <img src="/onewebmedia/houndstooth.png" id="poster" class="slides">
@@ -79,81 +91,42 @@
             <img src="/onewebmedia/heat.png" id="poster" class="slides">
             <img src="/onewebmedia/fd.png" id="poster" class="slides">
             <img src="/onewebmedia/sunset.png" id="poster" class="slides">
-        </div>
-        <br>
-        <p>↑ Some posters I've done just for fun</p>
-        <br><br>
-        <h2>Bad Vision ↓</h2>
-        <br>
-        <div>
-            <img src="/onewebmedia/s1.png" id="single">
-            <img src="/onewebmedia/s2.png" id="single">
-            <img src="/onewebmedia/s3.png" id="single"><br>
+            <img src="/onewebmedia/words.png" id="poster" class="slides">
+            <img src="/onewebmedia/sleep.png" id="poster" class="slides">
+            <img src="/onewebmedia/albertroschier.png" id="poster" class="slides">
+        </div><br>
+        <p class="right">↑<br>Some posters I've done just for fun</p>
+        <br><h2 class="left">Bad Vision<br>↓</h2><br>
+        <div class ="center">
+            <img src="/onewebmedia/singles.png" id="singles"><br>
             <img src="/onewebmedia/digipak.png" id="lp"><br>
-            <img src="/onewebmedia/cd.png" id="single">
-            <img src="/onewebmedia/tamperealt.png" id="single"><br>
-            <img src="/onewebmedia/armo2.png" id="poster">
-            <!-- <br><img src="/onewebmedia/kr900.png" id="single">
-            <img src="/onewebmedia/ta.png" id="single">
-            <img src="/onewebmedia/un.png" id="single"> -->
-        </div>
-        <br>
-        <p>↑ Logo, album art and promo stuff for <a href="https://open.spotify.com/artist/6ipwKDLm6t4GXtHbBewPaO?si=fyExCGnbQuGxdRd8L5XW3g" target="_blank">Bad Vision</a></p>
-        <br><br>
-        <h2>Ministerit ry ↓</h2>
-        <br>
-        <div>
-            <img src="/onewebmedia/ministerit_ry.png" id="poster">
+            <img src="/onewebmedia/cd.png" id="cd"><br>
+            <img src="/onewebmedia/armo2.png" id="gig"><br>
+            <img src="/onewebmedia/lp2.png" id="wide">
+        </div><br>
+        <p class="right">↑<br>Logo, album art and promo stuff for <a href="https://open.spotify.com/artist/6ipwKDLm6t4GXtHbBewPaO?si=fyExCGnbQuGxdRd8L5XW3g" target="_blank">Bad Vision</a></p>
+        <br><h2 class="left">Ministerit ry<br>↓</h2><br>
+        <div class ="center">
+            <img src="/onewebmedia/mry.png" id="wide"><br><br>
+            <img src="/onewebmedia/mryy.png" id="wide"><br><br>
+            <img src="/onewebmedia/ministerisitsit.png" id="wide">
+        </div><br>
+        <p class="right">↑<br>Logo and promo stuff for <a href="https://www.kauppalehti.fi/yritykset/yritys/ministerit+ry/32595387" target="_blank">Ministerit ry</a></p>
+        <br><h2 class="left">Misc. commissions<br>↓</h2><br>
+        <div class ="center">
+            <img src="/onewebmedia/btno1f.png" id="wide"><br><br>
+            <img src="/onewebmedia/cig.png" id="wide"><br><br>
+            <img src="/onewebmedia/bacs.png" id="wide">
+        </div><br>
+        <p class="right">...</p><br>
+        <footer>
+            <p>hmu → <a href="mailto:yo@albertroschier.fi">yo@albertroschier.fi</a></p>
+            <p>links → <a href="https://instagram.com/albertroschier" target="_blank">instagram</a>, <a href="https://discogs.com/user/albertroschier" target="_blank">discogs</a>, <a href="https://open.spotify.com/user/albertroschier" target="_blank">spotify</a></p>
             <br>
-            <img src="/onewebmedia/ministerisitsit.png" id="patch">
-        </div>
-        <br>
-        <p>↑ Logo and promo stuff for <a href="https://www.kauppalehti.fi/yritykset/yritys/ministerit+ry/32595387" target="_blank">Ministerit ry</a></p>
-        <br><br>
-        <h2>Misc. commissions ↓</h2>
-        <br>
-        <div>
-            <img src="/onewebmedia/btno1f.png" id="poster"><br>
-            <img src="/onewebmedia/bacspfp2.png" id="poster">
-        </div>
-        <br><br>
-        <p>...</p>
-        <br>
-        <p>hmu ↓</p>
-        <a href="mailto:yo@albertroschier.fi">yo@albertroschier.fi</a>
-        <br>
-        <br>
-        <p>links ↓</p>
-        <a href="https://instagram.com/albertroschier" target="_blank">instagram.com/albertroschier</a>
-        <br>
-        <a href="https://discogs.com/user/albertroschier" target="_blank">discogs.com/user/albertroschier</a>
-        <br>
-        <a href="https://open.spotify.com/user/albertroschier" target="_blank">open.spotify.com/user/albertroschier</a>
-        <br>
-        <br>
-        <p>© Albert Roschier 20XX</p>
-        <p id="small">Not powered by any soulless website builder or template,<br>sometimes less is more</p>
-        <br>
-        <img src="/onewebmedia/logo.png" id="logo">
-        <img src="/onewebmedia/signature.png" id="sig">
+            <p>© Albert Roschier 202X</p>
+            <p>This website doesn't use any cookies or analytics.<br>It's also not powered by any soulless website builder/template.<br>By continuing to use this website, you agree to not steal my shit.<br>(Always under construction)</p>
+        </footer>
         <script>
-
-            var flicker = ['<h1>A.R.</h1>', '<h1>A*</h1>', '<h1>A®</h1>', '<h1>Δ®</h1>'];
-            textSequence(0);
-            function textSequence(i) {
-    
-                if (flicker.length > i) {
-                    setTimeout(function() {
-                        document.getElementById("sequence").innerHTML = flicker[i];
-                        textSequence(++i);
-                    }, 100);
-    
-                } else if (flicker.length == i) {
-                    textSequence(0);
-                }
-    
-            }
-            
             var myIndex = 0;
             slideshow();
             function slideshow() {
@@ -165,9 +138,8 @@
                 myIndex++;
                 if (myIndex > x.length) {myIndex = 1}
                 x[myIndex-1].style.display = "initial";
-                setTimeout(slideshow, 600);
+                setTimeout(slideshow, 1250);
             }
-            
         </script>
     </body>
 </html>
